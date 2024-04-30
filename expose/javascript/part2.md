@@ -13,3 +13,5 @@
 13. A: 32, B: 1, C: 3, D: 3null, E:4 , F: 0, G: 3undefined, H: NaN
 14. A: true , B: false, C: true, D: false, E: false, F: true
 15. compares two values for equality after performing coercion if necessary, === compared both the value and the type of the two things we are comparing.
+17. This function will return the modify version of the array, it would return the array [2,4,6]. The way it works is by a callback function, dosomething() which we execute inside the .push() method. Once the the callback returns something, .push will add the value from the function to the array.
+19. the output would be 1,3,4,2
